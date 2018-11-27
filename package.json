@@ -1,0 +1,33 @@
+{
+  "name": "mytrips_backend",
+  "version": "1.0.0",
+  "description": "An API built with NodeJS, Express, MongoDB and TypeScript",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "ts-node ./lib/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "keywords": [
+    "Dale",
+    "Nguyen"
+  ],
+  "author": "Rivault Nicolas with the help tutorial of Dale Nguyen <dungnq@itbox4vn.com> (http://dalenguyen.me)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.11.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "exif-parser": "^0.1.12",
+    "express": "^4.16.3",
+    "mkdirp": "^0.5.1",
+    "mongoose": "^5.0.14",
+    "multiparty": "^4.2.1",
+    "nodemon": "^1.18.6",
+    "rimraf": "^2.6.2",
+    "sharp": "^0.21.0"
+  }
+}
